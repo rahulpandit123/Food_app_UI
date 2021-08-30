@@ -1,0 +1,316 @@
+.logo {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  color: red;
+  font-size: 78px;
+  background-color: white;
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+  text-align: center;
+}
+.text {
+  position: absolute;
+  left: 25%;
+  top: 28%;
+  color: white;
+  width: 754px;
+  height: 51px;
+  margin: 20px 205px 20px 0;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.tileContainer {
+  height: 150px;
+  width: 350px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px gray;
+  float: left;
+  cursor: pointer;
+}
+
+.suggestionItem {
+  background-color: wheat;
+  height: 28px;
+  font-size: medium;
+  font-weight: 500;
+}
+.tileComponent1 {
+  width: 45%;
+  float: left;
+}
+
+.tileComponent2 {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.componentHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.componentSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 15px;
+}
+
+.qs-item {
+  width: 360px !important;
+  height: 180px;
+  box-shadow: 9px 12px 6px 0px rgb(226 211 211);
+  background-color: #f8f9fa;
+  margin: 8px;
+  /* border: 2px solid red; */
+}
+.box {
+  margin-left: -12px;
+}
+
+.image {
+  width: "100%";
+  height: "100%";
+  object-fit: fill;
+}
+.Quick-Searches {
+  width: 239px;
+  height: 43px;
+  margin: 35px 149px 7px 94px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.sub-header {
+  width: 331px;
+  height: 25px;
+  margin: 7px 59px 33px 90px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #8c8c8c;
+}
+.food-title {
+  width: 55px;
+  height: 25px;
+  margin: 30px 82px 13px 48px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.food-detail {
+  width: 137px;
+  height: 62px;
+  margin: 17px 5px 44px 37px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+.food-desc {
+  display: inline-block;
+  vertical-align: top;
+  justify-content: center;
+  margin-left: 15px;
+  color: rgb(59, 47, 114);
+}
+.select-location {
+  position: absolute;
+  top: 42%;
+  left: 29%;
+  padding-bottom: 27px;
+}
+.Bengaluru {
+  height: 35px;
+}
+.enter-restraunt1 {
+  width: 270px;
+  height: 35px;
+  text-align: center;
+  padding-bottom: 0px;
+  border: none;
+  font-size: 15px;
+  padding-left: 34px;
+}
+.search {
+  display: inline-block;
+  position: absolute;
+  left: 115%;
+}
+.searchicon {
+  position: absolute;
+  left: 6%;
+  top: 25%;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    position: absolute;
+    left: 43%;
+    top: 8%;
+    color: red;
+    font-size: 47px;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .text {
+    position: absolute;
+    left: 8%;
+    top: 19%;
+    color: white;
+    width: 500px;
+    height: 45px;
+    margin: 22px 90px 38px 0;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .select-location {
+    display: block;
+    margin: -49px 20px 20px 18px;
+  }
+  .select-location,
+  .Bengaluru {
+    margin-bottom: 10px;
+  }
+
+  .search {
+    display: block;
+    left: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 792px) {
+  .logo {
+    position: absolute;
+    left: 43%;
+    top: 8%;
+    color: red;
+    font-size: 50px;
+    background-color: white;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .text {
+    position: absolute;
+    left: 21%;
+    top: 24%;
+    color: white;
+    width: 500px;
+    height: 45px;
+    margin: 10px 20px 21px 0;
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .select-location {
+    display: block;
+    margin: -29px 19px 20px 30px;
+    position: absolute;
+    left: 18%;
+    top: 41%;
+  }
+  .select-location,
+  .Bengaluru {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 792px) and (max-width: 992px) {
+  .logo {
+    position: absolute;
+    left: 43%;
+    top: 8%;
+    color: red;
+    font-size: 71px;
+    background-color: white;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .text {
+    position: absolute;
+    left: 23%;
+    top: 28%;
+    color: white;
+    width: 500px;
+    height: 45px;
+    margin: 10px 50px 20px 0;
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .select-location {
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    padding-bottom: 27px;
+  }
+  .select-location,
+  .Bengaluru {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 758px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-lg-4 {
+    width: 31.333333%;
+  }
+}

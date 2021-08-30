@@ -1,0 +1,675 @@
+.body2 {
+  background-color: aliceblue;
+}
+.header2 {
+  width: 100%;
+  height: 4%;
+  margin: 1px 16px 1px;
+  padding: 15px 76px 15px 102px;
+  background-color: #ce0505;
+}
+.restdata2 {
+  width: 130%;
+  height: 260px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 30px;
+
+  /* width: 101%; */
+  /* height: 89%; */
+  /* display: block; */
+  /* position: absolute; */
+  /* top: 114%; */
+  /* margin-left: -5%; */
+  /* padding-left: 38px; */
+  /* padding-top: 24px; */
+  /* box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%); */
+}
+.no-msg {
+  font-weight: bold;
+  font-size: 33px;
+  color: #ce0505;
+  text-align: center;
+}
+#one {
+  margin-left: 53px;
+}
+#two {
+  float: right;
+}
+#three {
+  float: right;
+}
+#four {
+  color: 192f60;
+}
+#five {
+  color: 192f60;
+}
+.bill {
+  margin-left: 213px;
+}
+.login {
+  width: 43px;
+  height: 23px;
+  margin: 12px 26px 11px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.create-an-account {
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.56;
+  width: 152px;
+  height: 23px;
+}
+.coll {
+  position: relative;
+  top: 1px;
+  display: none;
+  /* display: inline-block; */
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin: 2px 35px;
+} */
+.Rectangle-17 {
+  width: 181px;
+  height: 46px;
+  margin: 0 0 0 26px;
+  padding: 12px 14px 11px 15px;
+  border-radius: 3px;
+  border: solid 1px #ffffff;
+}
+.e {
+  width: 32px;
+  height: 47px;
+  color: #eb2929;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 33px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+}
+.Ellipse-2 {
+  width: 62px;
+  height: 62px;
+
+  margin: 0 825px 0 0;
+  /* margin: 0 861px 0 0; */
+  padding: 1px 10px 4px;
+  background-color: #ffffff;
+  border-radius: 48%;
+}
+.title1 {
+  font-size: 36;
+  font-weight: bold;
+  color: #192f60;
+  text-align: left;
+  font-family: Poppins;
+  /* width: 512px; */
+  /* height: 51px; */
+  margin: 3px 2px 2px 113px;
+  /* margin-left: 113px; */
+}
+.Rectangle-5 {
+  width: 260px;
+  flex: 2;
+  /* height: 682px; */
+  margin: 27px 45px 8px 0;
+  padding: 17px 25px 31px 26px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  /* border: #1425Fe 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #192f60;
+}
+.visibleFilter {
+  visibility: hidden;
+}
+
+.Selectmulti {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: right;
+  color: #192f60;
+}
+.selectOne {
+  display: flex;
+  flex-direction: column;
+  color: #192f60;
+  padding-bottom: 20px;
+}
+.Less-than-500 {
+  width: 106px;
+  height: 20px;
+  margin: 15px 73px 12px 11px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+/* .Less-than-500 .text-style-1 {
+      font-family: RupeeForadian;
+    } */
+
+.shutterstock_1154073754 {
+  border-radius: 30px;
+  width: 120px;
+  height: 120px;
+  margin: 0 41px 31px 0;
+  /* object-fit: contain; */
+}
+
+.The-Big-Chill-Cakery {
+  width: 298px;
+  height: 43px;
+  margin: 14px 267.4px 5px 41px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.font {
+  color: #192f60;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.image2 {
+  border-radius: 30px;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  /* margin: 0 41px 31px 0;       */
+  /* object-fit: contain; */
+}
+
+.Food-desc {
+  display: inline-block;
+  vertical-align: top;
+  /* width: 16rem; */
+  height: 14rem;
+  margin-left: 77px;
+}
+
+.bill1 {
+  display: inline-block;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  text-align: left;
+}
+
+.Rectangle-2323,
+.Rectangle-2325,
+.Rectangle-2326,
+.Rectangle-2327,
+.Rectangle-2328,
+.Rectangle-2330 {
+  width: 36px;
+  height: 36px;
+  margin: 0 12px 0 13px;
+  padding: 5px 15px 3px;
+  border-radius: 7px;
+  border: solid 1px #8c96ab;
+  background-color: #ffffff;
+}
+.Rectangle-2324 {
+  width: 36px;
+  height: 36px;
+  margin: 0 12px 0 13px;
+  padding: 5px 15px 3px;
+  border-radius: 7px;
+  border: solid 1px #8c96ab;
+  background-color: #8c96ab;
+  cursor: pointer;
+}
+.next-page {
+  /* position: absolute;
+  margin-left: 500px;
+  top: 150%; */
+  display: inline-flex;
+  margin-left: 650px;
+  margin-top: -3px;
+}
+.RectSelect {
+  widows: 282px;
+  height: 35px;
+  margin: 11px 0 22px 1px;
+  /* padding: 8px 16.7px 7px 15px; */
+  border-radius: 3px;
+  border: solid 1px #8c96ab;
+}
+.CUISINES-COST-FOR-TWO {
+  /* width: 140px; */
+  /* height: 118px; */
+  /* margin: 229px 52px 5px 85px; */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+  display: block;
+  /* flex-direction: row; */
+}
+#filter {
+  margin-left: 53px;
+}
+
+.Bakery-700 {
+  /* width: 140px; */
+  /* height: 118px; */
+  /* margin: 26px 294.4px 0 61px; */
+  display: block;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -61px;
+  margin-bottom: 106px;
+  height: 50px;
+}
+.Bakery-7001 {
+  position: absolute;
+  display: inline-block;
+  margin-left: 160px;
+  margin-top: -23px;
+}
+.cusine,
+.bakery {
+  display: inline-block;
+  height: 35px;
+  width: 125px;
+}
+
+.bakery1 {
+  display: table;
+  align-items: right;
+}
+
+.try {
+  display: inline-block;
+  /* padding-left: 30px; */
+  /*  margin-left: 10px; */
+  margin-bottom: 20px;
+  color: #192f60;
+  text-align: left;
+}
+.try1 {
+  text-align: left;
+  position: absolute;
+  margin-left: 42px;
+}
+.try3 {
+  display: inline;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 90px;
+  font-size: 18px;
+}
+
+.try1 {
+  display: inline-block;
+  padding-left: 30px;
+  margin-left: 10px;
+  color: #192f60;
+  text-align: left;
+}
+.path {
+  width: 377.4px;
+  /* height: 0; */
+  margin: 5% 0 0 30%;
+  border: solid 1px #dedfe5;
+}
+#Sort1 {
+  width: 37px;
+  height: 25px;
+  margin: 29px 172px 15px 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.sort {
+  color: #192f60;
+}
+.Cost-for-two {
+  width: 97px;
+  height: 20px;
+  margin: 26px 119px 15px 1px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.ancher {
+  text-decoration: none;
+}
+.visible-span {
+  display: none !important;
+}
+.Rectangle-6 {
+  width: 50% !important;
+  height: 300px;
+  /* flex: 3; */
+  margin: 3% 10% 4% 5%;
+  padding: 29px 32.6px 40px 35px;
+  /* box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%); */
+  background-color: #ffffff;
+  display: block;
+  align-items: right !important;
+  color: #192f60;
+}
+
+.res1 {
+  /* position: absolute !important; */
+  /* background-color: pink; */
+  /* top: 32%; */
+  /* left: 25%; */
+  /* width: 400px; */
+}
+.res2 {
+  /* position: absolute !important; */
+  /* background-color: pink; */
+  top: 88%;
+  left: 25%;
+  /* width: 400px; */
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .visibleFilter {
+    visibility: visible;
+  }
+  header {
+    width: 100%;
+    height: 4%;
+    /* margin: 1px 16px 1px; */
+    /* padding: 14px 0px 15px 129px; */
+    /* background-color: #ce0505; */
+  }
+  .login {
+    width: 43px;
+    height: 23px;
+    margin: 12px -7px 11px 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  .create-an-account {
+    color: #ffffff;
+    /* text-align: left; */
+    font-size: 12px;
+    line-height: 1.56;
+    /* width: 142px; */
+    /* height: 23px; */
+    /* margin-left: 0px; */
+  }
+
+  .e {
+    width: 32px;
+    height: 47px;
+    color: #eb2929;
+    /* text-align: left; */
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    margin: 10px 30px 10px -91px;
+  }
+  .Ellipse-2 {
+    width: 88px;
+    height: 62px;
+    margin: 14px 47% 0 0;
+    padding: 1px 10px 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  .Rectangle-17 {
+    /* width: 181px; */
+    /* height: 46px; */
+    margin: 0 0 0 26px;
+    padding: 7px 15px 7px 19px;
+    border-radius: 3px;
+    border: solid 1px #ffffff;
+  }
+  .title1 {
+    font-weight: bold;
+    color: #192f60;
+    text-align: left;
+    font-family: Poppins;
+    width: 99%;
+    height: 35px;
+    margin: 3px 1px 5px 30px;
+    margin-left: 6px;
+  }
+
+  #filterCollapse {
+    display: inline-block;
+  }
+  .visible-span {
+    display: initial !important;
+  }
+  .container {
+    flex-direction: row;
+    align-items: center;
+    margin: 2px 35px;
+  }
+
+  .shutterstock_1154073754 {
+    border-radius: 12px;
+    width: 70px;
+    height: 70px;
+    margin: 0 21px 20px 0;
+    /* object-fit: contain; */
+  }
+
+  .image2 {
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    /* margin: 0 41px 31px 0;       */
+    /* object-fit: contain; */
+  }
+
+  .Cost-for-two {
+    width: 136px;
+    height: 20px;
+    margin: 26px 89px 15px 1px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .Rectangle-6 {
+    padding: 1rem;
+    /* box-shadow: 0 3px 6px 0 rgb(255 24 24 / 74%); */
+    background-color: #ffffff;
+    margin: 25px 0px 23px -13px;
+    position: relative !important;
+    /* top: 156% !important; */
+    /* left: 0% !important; */
+    padding: 18px 9px 26px 11px !important;
+    width: 100% !important;
+    height: 6% !important;
+    margin-left: -164px;
+  }
+  .bill {
+    height: 37px;
+    margin-top: -18px;
+    margin-left: 35%;
+  }
+
+  .res1 {
+    position: absolute;
+    width: 440px;
+    top: 32%;
+    left: 36%;
+  }
+  .res2 {
+    position: absolute;
+    width: 440px;
+    /* top:200%; */
+    left: 2%;
+  }
+  .image2 {
+    display: inline-block;
+    width: 108px;
+    height: 105px;
+    object-fit: fill;
+    border-radius: 2px solid black;
+  }
+  .Food-desc {
+    display: inline-block;
+    vertical-align: top;
+    /* width: 16rem; */
+    height: 10rem;
+    margin-left: 160px;
+    margin-top: -28%;
+  }
+  .The-Big-Chill-Cakery {
+    font-size: 10px !important;
+  }
+  .font {
+    font-size: 10px !important;
+  }
+  .Location1 {
+    font-size: 11px;
+  }
+  .path {
+    width: 280.4px;
+    /* height: 0; */
+    margin: -2% 0 0 30%;
+    border: solid 1px #dedfe5;
+  }
+  .next-page {
+    position: absolute;
+    margin-left: 108px;
+    top: 132%;
+  }
+  .restdata,
+  .restdata2 {
+    width: 100%;
+    /* margin-left: -203px; */
+  }
+
+  .restdata {
+    /* margin-left: -13px; */
+    margin-top: 1px;
+    height: 210px;
+    width: auto;
+    padding-left: 11px;
+  }
+  .glyphicon {
+    position: relative;
+    top: 1px;
+    display: initial;
+    /* display: inline-block; */
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .Rectangle-5 {
+    /* width: 100%; */
+    flex: 2;
+    /* height: 682px; */
+    margin: 27px 45px 8px 0;
+    padding: 17px 25px 31px 26px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    /* border: #1425Fe 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #192f60;
+  }
+
+  .Rectangle-2323,
+  .Rectangle-2324,
+  .Rectangle-2325,
+  .Rectangle-2326,
+  .Rectangle-2327,
+  .Rectangle-2328,
+  .Rectangle-2330 {
+    width: 25px;
+    height: 25px;
+    margin: 0 9px 0 9px;
+    padding: 5px 15px 3px;
+    border-radius: 7px;
+    border: solid 1px #8c96ab;
+    background-color: #ffffff;
+  }
+}
