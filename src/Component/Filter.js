@@ -36,7 +36,7 @@ class filter extends React.Component {
     };
     //step 2 make api call to get data from that meal type
     axios({
-      url: "http://localhost:2020/filter",
+      url: "https://zoomato-backend.herokuapp.com/filter",
       method: "POST",
       Headers: { "content-Type": "application/json" },
       data: reqObj,
@@ -55,7 +55,7 @@ class filter extends React.Component {
       });
 
     axios({
-      url: "http://localhost:2020/locations",
+      url: "https://zoomato-backend.herokuapp.com/locations",
       method: "GET",
       Headers: { "content-Type": "application/json" },
     })
@@ -77,7 +77,7 @@ class filter extends React.Component {
     };
     //step 2 make api call to get data from that meal type
     axios({
-      url: "http://localhost:2020/filter",
+      url: "https://zoomato-backend.herokuapp.com/filter",
       method: "POST",
       Headers: { "content-Type": "application/json" },
       data: reqObj,
@@ -107,7 +107,7 @@ class filter extends React.Component {
       page,
     };
     axios({
-      url: "http://localhost:2020/filter",
+      url: "https://zoomato-backend.herokuapp.com/filter",
       method: "POST",
       Headers: { "content-Type": "application/json" },
       data: reqObj,
@@ -139,7 +139,7 @@ class filter extends React.Component {
       page,
     };
     axios({
-      url: "http://localhost:2020/filter",
+      url: "https://zoomato-backend.herokuapp.com/filter",
       method: "POST",
       Headers: { "content-Type": "application/json" },
       data: reqObj,
@@ -170,7 +170,7 @@ class filter extends React.Component {
     };
     //step 2 make api call to get data from that meal type
     axios({
-      url: "http://localhost:2020/filter",
+      url: "https://zoomato-backend.herokuapp.com/filter",
       method: "POST",
       Headers: { "content-Type": "application/json" },
       data: reqObj,
@@ -207,7 +207,7 @@ class filter extends React.Component {
     };
     //step 2 make api call to get data from that meal type
     axios({
-      url: "http://localhost:2020/filter",
+      url: "https://zoomato-backend.herokuapp.com/filter",
       method: "POST",
       Headers: { "content-type": "application/json" },
       data: reqObj,

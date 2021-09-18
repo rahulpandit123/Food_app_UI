@@ -20,7 +20,7 @@ class Walpaper extends React.Component {
     sessionStorage.setItem("location", locationId);
 
     axios({
-      url: `http://localhost:2020/restaurantsbylocation/${locationId}`,
+      url: `https://zoomato-backend.herokuapp.com/restaurantsbylocation/${locationId}`,
       method: "GET",
       headers: { "Content-Type": "application/json" },
     })

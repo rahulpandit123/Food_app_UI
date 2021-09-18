@@ -21,7 +21,7 @@ class Home extends React.Component {
   componentDidMount() {
     sessionStorage.clear();
     axios({
-      url: "http://localhost:2020/locations",
+      url: "https://zoomato-backend.herokuapp.com/locations",
       method: "GET",
       Headers: { "content-type": "application/json" },
     })
@@ -31,7 +31,7 @@ class Home extends React.Component {
       .catch();
 
     axios({
-      url: "http://localhost:2020/mealtypes",
+      url: "https://zoomato-backend.herokuapp.com/mealtypes",
       method: "GET",
       Headers: { "content-type": "application/json" },
     })

@@ -85,7 +85,7 @@ class Header extends React.Component {
     event.preventDefault();
     const { firstname, lastname, email, password } = this.state;
     axios({
-      url: `http://localhost:2020/userregistration`,
+      url: `https://zoomato-backend.herokuapp.com/userregistration`,
       method: "POST",
       data: {
         firstname: firstname,
@@ -137,7 +137,7 @@ class Header extends React.Component {
     */
 
     axios({
-      url: "http://localhost:2020/login",
+      url: "https://zoomato-backend.herokuapp.com/login",
       method: "POST",
       data: reqObj,
       headers: { "Content-Type": "application/json" },

@@ -42,7 +42,7 @@ class Details extends React.Component {
     const { restaurantId } = qs;
 
     axios({
-      url: `http://localhost:2020/getRestaurantDetailsById/${restaurantId}`,
+      url: `https://zoomato-backend.herokuapp.com/getRestaurantDetailsById/${restaurantId}`,
       method: "GET",
       headers: { "Content-Type": "application/json" },
     })
@@ -61,7 +61,7 @@ class Details extends React.Component {
   handleOrder = () => {
     const { restaurantId } = this.state;
     axios({
-      url: `http://localhost:2020/menuItems/${restaurantId}`,
+      url: `https://zoomato-backend.herokuapp.com/menuItems/${restaurantId}`,
       method: "GET",
       headers: { "Content-Type": "application/json" },
     })
@@ -153,7 +153,7 @@ class Details extends React.Component {
   };
 
   getData = (data) => {
-    return fetch(`http://localhost:2020/payment`, {
+    return fetch(`https://zoomato-backend.herokuapp.com/payment`, {
       method: "POST",
       headers: {
         Accept: "application/json",
