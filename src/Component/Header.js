@@ -284,7 +284,7 @@ class Header extends React.Component {
                 callback={this.responseFacebook}
               />
               <GoogleLogin
-                clientId='599494905618-gan8mootlb17fo7q21oqid0msed543i7.apps.googleusercontent.com'
+                clientId='337287234914-0f6hkormfvjpcedkrqt9fv51222en2md.apps.googleusercontent.com'
                 buttonText='Login with Gmail'
                 onSuccess={this.responseGoogle}
                 onFailure={this.responseGoogle}
